@@ -3,7 +3,7 @@ require 'test_helper'
 class CategoriesControllerTest < ActionDispatch::IntegrationTest
 	def setup
 		@category = Category.create(name: "sports")
-		@user = User.create(username: "john", email: "john@gmail.com", password: "password", admin: true)
+		@user = User.create(username: "john", email: "ryoji@example.com", password: "password", admin: true)
 	end
 
 	test "should get categories index" do
